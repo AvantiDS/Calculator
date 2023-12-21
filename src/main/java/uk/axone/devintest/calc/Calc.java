@@ -30,4 +30,8 @@ public class Calc {
         return a/2;
     }
 
+    public int doubleAnum(){
+        return a*2;
+    }
+
 }
