@@ -22,4 +22,8 @@ public class Calc {
         return a*b;
     }
 
+    public int div(){
+        return a/b;
+    }
+
 }
