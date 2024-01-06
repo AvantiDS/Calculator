@@ -17,4 +17,10 @@ public class CalcTest {
         Calc calc = new Calc(5, 6);
         Assert.assertEquals(calc.sub(), -1);
     }
+
+    @Test
+    public void mulTest(){
+        Calc calc = new Calc(2,3);
+        Assert.assertEquals(calc.mul(), 6);
+    }
 }
