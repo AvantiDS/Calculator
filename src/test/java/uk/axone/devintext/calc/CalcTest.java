@@ -23,4 +23,10 @@ public class CalcTest {
         Calc calc = new Calc(2,3);
         Assert.assertEquals(calc.mul(), 6);
     }
+
+    @Test
+    public void divTest(){
+        Calc calc = new Calc(5,5);
+        Assert.assertEquals(calc.div(), 1);
+    }
 }
