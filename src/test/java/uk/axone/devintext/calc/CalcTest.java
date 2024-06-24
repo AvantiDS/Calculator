@@ -30,7 +30,9 @@ public class CalcTest {
         Assert.assertEquals(calc.div(), 1);
     }
 
-    public void dummyMethod(){
-        System.out.println("Dummy method in CalcTest");
+    @Test
+    public void renamedMethod(){
+
+        System.out.println("Dummy method is renamed in CalcTest");
     }
 }
