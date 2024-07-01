@@ -19,6 +19,11 @@ public class CalcTest {
     }
 
     @Test
+    public void dummyMethod(){
+        System.out.println("Added dummy method");
+    }
+
+    @Test
     public void mulTest(){
         Calc calc = new Calc(2,3);
         Assert.assertEquals(calc.mul(), 6);
